@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrimonial Biodata - Md. Fardin Bin Ferdous</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #eff6ff;
+      --text-dark: #0f172a;
+      --text-muted: #475569;
+      --border-color: #e2e8f0;
+      --accent-gold: #b45309;
+      --card-bg: #ffffff;
+      --bg: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-dark);
+      line-height: 1.6;
+      padding: 32px 16px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 820px;
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+    }
+
+    .header-bismillah {
+      background: #0f172a;
+      color: #fbbf24;
+      text-align: center;
+      padding: 12px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .profile-hero {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 24px;
+      padding: 32px 28px;
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    @media (min-width: 640px) {
+      .profile-hero {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    .hero-info h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 4px;
+    }
+
+    .hero-info .title {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    .avatar-wrapper {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid #ffffff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+      flex-shrink: 0;
+    }
+
+    .avatar-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+    }
+
+    .content {
+      padding: 28px;
+      display: grid;
+      gap: 24px;
+    }
+
+    .section-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 6px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px 24px;
+    }
+
+    @media (min-width: 640px) {
+      .grid-2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .info-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .info-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .info-value {
+      font-size: 0.98rem;
+      font-weight: 500;
+      color: var(--text-dark);
+      margin-top: 2px;
+    }
+
+    .contact-card {
+      background: var(--primary-light);
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #bfdbfe;
+    }
+
+    .contact-card .info-value a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .print-btn-container {
+      padding: 0 28px 28px;
+      text-align: right;
+    }
+
+    .print-btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .print-btn:hover {
+      opacity: 0.9;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: #fff;
+      }
+      .container {
+        box-shadow: none;
+        border: none;
+      }
+      .print-btn-container {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-bismillah">
+      بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+    </div>
+
+    <div class="profile-hero">
+      <div class="hero-info">
+        <h1>Md. Fardin Bin Ferdous</h1>
+        <div class="title">Operations Manager — Platinumlist (UAE)</div>
+        <span class="badge">B.Sc. Computer Science &amp; Engineering</span>
+      </div>
+      <div class="avatar-wrapper">
+        <img src="photo.jpg" alt="Md. Fardin Bin Ferdous">
+      </div>
+    </div>
+
+    <div class="content">
+      <!-- Personal Details -->
+      <section>
+        <div class="section-title">Personal Details</div>
+        <div class="grid-2">
+          <div class="info-item">
+            <span class="info-label">Date of Birth / Age</span>
+            <span class="info-value">03 December 1999 (26 Years)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Height</span>
+            <span class="info-value">5' 9" (175 cm)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Complexion</span>
+            <span class="info-value">Fair</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Blood Group</span>
+            <span class="info-value">B+ (Positive)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Religion &amp; Faith</span>
+            <span class="info-value">Islam (Practicing Sunni Muslim)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Marital Status</span>
+            <span class="info-value">Unmarried / Single</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Languages Known</span>
+            <span class="info-value">Bengali (Native), English (Fluent)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education & Career -->
+      <section>
+        <div class="section-title">Education &amp; Profession</div>
+        <div class="grid-2">
+          <div class="info-item">
+            <span class="info-label">Highest Degree</span>
+            <span class="info-value">B.Sc. in Computer Science &amp; Engineering</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Alma Mater</span>
+            <span class="info-value">International Islamic University Chittagong (IIUC)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Current Role</span>
+            <span class="info-value">Operations Manager (Remote)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Organization</span>
+            <span class="info-value">Platinumlist (UAE)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Current Base</span>
+            <span class="info-value">Chattogram, Bangladesh</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Family Background -->
+      <section>
+        <div class="section-title">Family Details</div>
+        <div class="grid-2">
+          <div class="info-item">
+            <span class="info-label">Father</span>
+            <span class="info-value">Md. Ferdous (Businessman)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Mother</span>
+            <span class="info-value">Monowara Begum (Homemaker)</span>
+          </div>
+          <div class="info-item" style="grid-column: 1 / -1;">
+            <span class="info-label">Brother</span>
+            <span class="info-value">Md. Farhan Bin Ferdous — Currently in 3rd Year B.D.S., Chittagong Medical College (CMC)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Sister</span>
+            <span class="info-value">None</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Family Background</span>
+            <span class="info-value">Practicing Muslim, cultured nuclear family</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Information -->
+      <section class="contact-card">
+        <div class="section-title" style="border-bottom-color: #bfdbfe; margin-bottom: 12px;">Contact Information</div>
+        <div class="grid-2">
+          <div class="info-item">
+            <span class="info-label">Address</span>
+            <span class="info-value">Elias Brothers House, Ward No. 06, Chandgaon, Chattogram</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Phone</span>
+            <span class="info-value"><a href="tel:+8801821027871">+880 1821-027871</a></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Email</span>
+            <span class="info-value"><a href="mailto:fardin.b.ferdous@gmail.com">fardin.b.ferdous@gmail.com</a></span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="print-btn-container">
+      <button class="print-btn" onclick="window.print()">Download / Print PDF</button>
+    </div>
+  </div>
+
+</body>
+</html>
